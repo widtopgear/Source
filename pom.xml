@@ -18,4 +18,29 @@
   <build>
     <finalName>java-hello-world</finalName>
   </build>
+  <repositories>
+<repository>
+  <id>test-package</id>
+  <url>https://pkgs.dev.azure.com/SU393698/test-pipeline/_packaging/test-package/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+<repositories>
+  
+<distributionManagement>
+<repository>
+  <id>test-package</id>
+  <url>https://pkgs.dev.azure.com/SU393698/test-pipeline/_packaging/test-package/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</distributionManagement>
 </project>
